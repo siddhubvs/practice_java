@@ -12,3 +12,9 @@ public class DecimalComparator {
     }
 
 }
+public class main {
+    public static void main(String[] args) {
+     boolean istrue=DecimalComparator.areEqualByThreeDecimalPlaces(valueOne, valueTwo);
+        System.out.println(istrue);
+    }
+}
